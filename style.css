@@ -1,0 +1,154 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loop {
+    width: 100vw;
+    height: 100vh;
+    background-color: #55557e;
+    position: fixed;
+}
+
+.bar {
+    width: 21.5rem;
+    height: 5rem;
+    margin: auto;
+    /* background-color: aliceblue; */
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loop1 {
+    width: 20rem;
+    height: 20rem;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.box1,
+.box2,
+.box4,
+.box5 {
+    width: 4rem;
+    height: 3rem;
+    background-color: #3d3e52;
+    margin-top: .5rem;
+}
+
+.box3 {
+    width: 5rem;
+    height: 4rem;
+    background-color: #252525;
+}
+
+.top {
+    width: 20rem;
+    height: 8rem;
+    background-image: url(./img/food.jpg);
+    background-size: cover;
+}
+
+.event,
+.finance,
+.gift,
+.pets {
+    margin-top: .7rem;
+    margin-left: 1.2rem;
+}
+
+.cafe {
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+}
+
+.food {
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    margin-left: 1rem;
+}
+
+.location {
+    display: flex;
+}
+
+.location1 {
+    width: 1rem;
+    height: 1rem;
+}
+
+.madrid {
+    color: #fff;
+    font-size: .8em;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    font-family: monospace;
+}
+
+.bottom {
+    width: 20rem;
+    height: 12rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza,
+.sushi,
+.gourmet,
+.burger {
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    color: #cfd1d0;
+    font-weight: 500;
+    align-items: center;
+}
+
+
+/* .pizza,
+.sushi,
+.gourmet,
+.burger:hover {
+    cursor: pointer;
+} */
+
+.num1,
+.num2,
+.num3,
+.num4 {
+    font-size: 1em;
+    color: #cfd1d0;
+    margin-right: 1rem;
+}
+
+.pizza,
+.sushi,
+.gourmet {
+    border-bottom: 1px solid #cfd1d0;
+}
+
+.pizza1,
+.sushi1,
+.gourmet1,
+.burger1 {
+    margin-left: 1rem;
+}
+
+.num1:hover {
+    cursor: pointer;
+    color: black;
+    transition: 1s;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
